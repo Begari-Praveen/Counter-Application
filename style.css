@@ -1,0 +1,79 @@
+*{
+    background-color :black;
+   
+}
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;    
+}
+.container{
+    padding-left: 40%;
+    margin-top:1.5%;
+    height: 100vh;
+    width:100%
+    
+}
+.heading{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 20%;
+    color: white;
+    margin-right:40px;
+}
+.num{
+   
+    font-size: 3rem;
+    font-weight: bolder;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    margin-left : 9%;
+
+}
+.btn{
+   gap: 20px;
+  bottom: 20px;
+  margin-left : 38px;
+  top:auto;
+}
+.btn1{
+    background-color: lightgreen;
+    color: black;
+    padding:9px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 1rem;
+    
+}
+.btn2{
+    background-color:orange;
+    color: black;
+    padding:9px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 1rem;
+    margin-left: 45px;
+}
+.btn1:hover{
+    background-color: darkgreen;
+    cursor: pointer;
+}
+.btn2:hover{
+    background-color: red;
+    cursor: pointer;
+}
+.reset{
+     padding:9px;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 1rem;
+    color:white;
+   margin-left: 8%;
+}
+.reset:hover{
+    background-color: white;
+    color:black;
+}
+.restart{
+    margin-top:2%;
+}
